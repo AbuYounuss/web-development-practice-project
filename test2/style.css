@@ -1,0 +1,90 @@
+/*body{
+	margin: 0;
+	padding: 0;
+}
+nav{
+	background: #03495a;
+	text-align: center;
+}
+.dropdown a{
+	color: white;
+	font-size: 20px;
+	padding: 8px 0;
+	display: inline-block;
+}
+nav .menu ul{
+	margin:0;
+	padding: 0;
+	list-style: none;
+}
+nav .menu > ul > li{
+	display: inline-block;
+	position: relative;
+}
+
+nav .menu ul li a{
+	display: inline-block;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 10px 20px;
+}
+.menu ul ul{
+	background: #045375;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	font-size: 12px;
+}*/
+
+
+body{
+	margin: 0;
+	padding: 0;
+}
+.dropdown a{
+	color: white;
+	padding: 10px 0;
+	display: inline-block;
+}
+nav{
+	text-align: center;
+	background: #03485a;
+}
+nav .menu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+nav .menu > ul > li {
+	list-style: none;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 8px 20px;
+	position: relative;
+}
+nav .menu ul li a {
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+}
+.menu ul ul {
+	background: #045375;
+	text-decoration: none;
+	top: 100%;
+	left: 0;
+	right: 0;
+	position: absolute;
+	font-size: 12px;
+	display: none;
+}
+.menu ul ul li a{
+	padding: 10px;
+}
+
+
+.div2{
+	height: 300px;
+	width: cover;
+	background: red;
+}

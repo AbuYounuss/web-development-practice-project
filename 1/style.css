@@ -1,0 +1,29 @@
+selecton {
+	pr: value;
+}
+.top {
+	height: 160px;
+	width: auto;
+	background-color: red;
+	text-align: center;
+}
+.mid {
+	height: 300px;
+	width: auto;
+	background-color: green;
+}
+.left,.middle,.right {
+	text-align: center;
+	height: 75.00%;
+	width: 30%;
+	margin: 3% 1% 0% 2%;
+	float: left;
+	background-color: red;
+}
+.bottom {
+	height: 160px;
+	width: auto;
+	background-color: red;
+	text-align: center;
+	text-shadow: yellowgreen;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>test</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <section id="login-area">
+        <h1>Welcome to Pioneer Bank</h1>
+        <div class="container">    
+           <div class="login">
+               <h4>Login</h4>
+               <input type="text" id="login-info" class="input-area" placeholder="Email"><br>
+               <input type="password" id="password-info" class="input-area" placeholder="Password"><br>
+               <button class="btn" id="btn">Enter</button>
+           </div>
+       </div>
+    </section>
+
+    <div id="transition-area">
+        <div id="row">
+            <div id="col1">
+                <div class="status">
+                    <h5>Deposit</h5>
+                    <h2>$ <span id="currentDeposit">00</span></h2>
+                </div>
+            </div>
+            <div id="col2">
+                <div class="status">
+                    <h5>Withdraw</h5>
+                    <h2>$ <span id="currentWithdraw">00</span></h2>
+                </div>
+            </div>
+            <div id="col3">
+              <div class="status">
+                    <h5>Balance</h5>
+                    <h2>$ <span id="currentBalance">00</span></h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="deposit-withdraw-area">
+            <div class="status-area">
+                    <H4>Deposit</H4>
+                    <input id="depositAmount" type="text"  placeholder="$ amount you want to deposit"><br>
+                    <button id="addDeposit" class="btn">Deposit</button>
+            </div> 
+            <div class="status-area">
+                    <H4>Withdraw</H4>
+                    <input id="withdrawAmount" type="text" placeholder="$ amount you want to withdraw"><br>
+                    <button id="addWithdraw" class="btn">withdraw</button>
+            </div>
+        </div>
+
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

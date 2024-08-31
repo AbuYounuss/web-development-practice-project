@@ -1,0 +1,23 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+
+.ball {
+	height: 50px;
+	width: 50px;
+	border-radius: 60%;
+	transform: translate(370px,-120px);
+}
+.main:hover .bat {
+	transition: 1s ease-in;
+	transform-origin: 100% 0%;
+	transform: rotate(-60deg);
+	transition: transform 1s ease-in;
+}
+.main:hover .ball {
+	transition: transform 0.56s ease-in 1s;
+	transform: translate(1100px,-300px);
+}

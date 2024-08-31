@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin-bottom: 50px; 
+    border-radius: 10px;  
+}
+.logo {
+    height: 60px;
+    width: 120px;
+}
+.carasoul {
+    background-color: lightgray;
+}
+.buy-now {
+    background-color:black;
+    color: white;
+    border-radius: 10px;
+    height: 40px;
+    width: 120px;
+    margin-top: 10px;
+}
+.smartphone {
+    display: flex;
+    justify-content: space-between;
+}
+.see-all {
+    border: none;
+    background-color: white;
+}
+.see-all a {
+    text-decoration: none;
+    color: #FFA032;
+    font-weight:700;
+}
+.phone-img {
+    height: 90%;
+    width: 80%;
+}
+.section-title {
+    width: 20%;
+    margin: auto;
+    text-align: center;
+}
+.section-title h1 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    position: relative;
+}
+.section-title h1::after {
+    content: "";
+    clear: both;
+    display: block;
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+    background-color: #fe320a;
+    position:absolute;
+    bottom: -21px;
+    left: 50%;
+
+}
+hr {
+    border: none;
+    height: 2px;
+    background-color: #fe320a;
+
+}
+.categories-section {
+    display: flex;
+    justify-content: center;
+
+}
+.category-item {
+    background-color: #f9f9f9;
+    border-radius: 0 30px 0 30px;
+    padding: 20px 0 20px 0;
+    text-align: center;
+    margin: 1rem 0;
+    box-shadow: 3px 3px 60px rgba(0, 0, 0, .2);
+    
+}
+.category-icon {
+    width: 50px;
+    height: 70px;
+    margin-bottom: 3rem;
+}
+.category-item h3 {
+    font-size: 1.25rem;
+    margin: 0;
+    flex-grow: 2;
+}
+.bag-item {
+    transform: translate(-20px,100px);
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}

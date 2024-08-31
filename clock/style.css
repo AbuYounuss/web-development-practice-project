@@ -1,0 +1,37 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin-top: 200px;
+	margin-right: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+
+	background-image: url(bg.jpg);
+	background-size: cover;
+	background-position: center;
+	min-height: 100vh;
+}
+.box {
+	border: 2px solid rgba(0, 0, 0, .1);
+	backdrop-filter: blur(9px);
+	border-radius: 100px;
+	height: 100px;
+	width: 600px;
+	padding: 60px;
+	box-shadow: 2px 2px 8px 2px;
+}
+.instyle {
+	padding: 20px 30px;
+	border-radius: 100px;
+	width: 10%;
+	border: 2px solid rgba(0, 0, 0, .4);
+	box-shadow: 2px 2px 8px 2px;
+	background: transparent;
+	text-align: center;
+	font-size: 50px;
+
+}

@@ -1,0 +1,68 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.mysticky{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(85, 10, 65, 1);}
+nav{
+	background: #30405a;
+	text-align: center;
+	height: 100px;	
+}
+.dropdown{
+	display: none;
+}
+.dropdown a{
+	color: white;
+	font-size: 20px;
+	margin: 20px 0;
+	padding: 0 1px;
+	display: inline-block;
+}
+nav .menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav .menu > ul > li {
+	display: inline-block;
+	padding: 0 20px;
+	position: relative;
+}
+nav .menu ul li a{
+	color:white;
+	text-decoration: none;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.menu ul ul {
+	background-color: #405075;
+	top: 100%;
+	left: 0;
+	position: absolute;
+	display: none;
+}
+ul ul li {
+	padding: 15px 0;
+}
+.tops{
+	background:red;
+	position:fixed;
+	color:white;
+}
+.scrolls{
+	background: #405075;
+	padding: 13px 15px;
+	margin: 5px;
+	border-radius: 5px 5px 0 0;
+	display: inline-block;
+	color:white;
+	font-size: 25px;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	display: none;
+}

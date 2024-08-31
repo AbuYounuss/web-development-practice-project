@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+
+}
+.loginPage {
+	color: white;
+	z-index: 1;
+}
+
+
+
+ .myVideo {
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+
+ }
+
